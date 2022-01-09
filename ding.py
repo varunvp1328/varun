@@ -20,4 +20,4 @@ if'FAILURES!!!' in d:
     conn.commit()
     cur.close()
 subprocess.check_call(f"/home/{path}/Android/Sdk/platform-tools/adb -s emulator-5554 emu kill",shell=True)
-vet(db=True)
+vet(db=True) 
