@@ -1,6 +1,7 @@
 import subprocess
 import sqlalchemy
 import datetime
+import sys
 
 with open('instruction.txt') as lines:
     details= [line.strip() for line in lines]
