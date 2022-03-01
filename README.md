@@ -4,7 +4,7 @@ conn = psycopg2.connect(
     host="localhost",
     database="postgres",
     user="postgres",
-    password="1234")
+    
     
 cur = conn.cursor()
 def db_create():
